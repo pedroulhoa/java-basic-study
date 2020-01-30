@@ -24,12 +24,13 @@ public class Exercicio {
 
             while(line != null) {
                 String[] values = line.split(",");
+                String name = values[0];
 
-                if (candidates.containsKey(values[0])) {
-                    Integer increment = candidates.get(values[0]) + Integer.valueOf(values[1]);
-                    candidates.put(values[0], increment);
+                if (candidates.containsKey(name)) {
+                    Integer increment = candidates.get(name) + Integer.valueOf(values[1]);
+                    candidates.put(name, increment);
                 } else {
-                    candidates.put(values[0], Integer.valueOf(values[1]));
+                    candidates.put(name, Integer.valueOf(values[1]));
                 }
 
                 line = br.readLine();
