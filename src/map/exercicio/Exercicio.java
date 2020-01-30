@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
-import java.util.TreeMap;
 
 public class Exercicio {
 
@@ -43,8 +42,6 @@ public class Exercicio {
         } catch (IOException e) {
             System.out.println("Erro: " + e.getMessage());
         }
-
-
 
         sc.close();
     }
