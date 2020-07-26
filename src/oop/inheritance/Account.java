@@ -1,4 +1,4 @@
-package oop.inheritance.entities;
+package oop.inheritance;
 
 public class Account {
 

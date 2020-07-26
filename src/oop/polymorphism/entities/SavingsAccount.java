@@ -1,4 +1,4 @@
-package oop.polimorfismo.entities;
+package oop.polymorphism.entities;
 
 public class SavingsAccount extends Account {
 

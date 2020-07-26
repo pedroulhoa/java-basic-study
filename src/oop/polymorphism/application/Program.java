@@ -1,7 +1,7 @@
-package oop.polimorfismo.application;
+package oop.polymorphism.application;
 
-import oop.polimorfismo.entities.Account;
-import oop.polimorfismo.entities.SavingsAccount;
+import oop.polymorphism.entities.Account;
+import oop.polymorphism.entities.SavingsAccount;
 
 public class Program {
 
