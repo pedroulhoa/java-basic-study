@@ -1,4 +1,4 @@
-package jdbc.example1;
+package jdbc.select;
 
 import jdbc.db.DB;
 
